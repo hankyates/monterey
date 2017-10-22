@@ -2,8 +2,6 @@ defmodule Monterey.Application do
   use Application
 
   def start(_type, _args) do
-    import Supervisor.Spec
-
     children = [
       Plug.Adapters.Cowboy.child_spec(:http, Monterey.Router, [], [port: 4001])
     ]

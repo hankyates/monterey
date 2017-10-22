@@ -10,11 +10,11 @@ use Mix.Config
 
 # You can configure your application as:
 #
-#     config :wat, key: :value
+#     config :monterey, key: :value
 #
 # and access this configuration in your application as:
 #
-#     Application.get_env(:wat, :key)
+#     Application.get_env(:monterey, :key)
 #
 # You can also configure a 3rd-party app:
 #

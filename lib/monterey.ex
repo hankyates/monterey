@@ -4,7 +4,6 @@ defmodule Monterey.Surveys do
       |> Enum.map(fn hit -> hit["_source"] end)
   end
   def get_surveys(_conn) do
-    IO.inspect(System.get_env("ES_AUTH"))
     headers = [
       "Authorization": "Basic #{System.get_env("ES_AUTH")}",
       "Accept": "application/json"
