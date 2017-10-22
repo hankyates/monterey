@@ -1,0 +1,2 @@
+#!/bin/bash
+MIX_ENV=prod elixir --no-halt --name monterey --detached -S mix
